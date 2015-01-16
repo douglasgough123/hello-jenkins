@@ -1,5 +1,5 @@
 #!/bin/sh
-
+set -e
 ssh app@104.236.181.69 <<EOF
   cd ~/hello-jenkins
   git pull
